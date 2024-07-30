@@ -1,1 +1,1 @@
-Using [this](https://developers.arcgis.com/javascript/latest/get-started-npm/) to get a working demo going
+Got first step done using [this](https://developers.arcgis.com/javascript/latest/tutorials/display-a-map-component/)
