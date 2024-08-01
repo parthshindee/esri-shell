@@ -2,34 +2,32 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
-  <title>ArcGIS Maps SDK for JavaScript Tutorials: Display a map using arcgis/map-components</title>
+  <title>Working mapview with doubleclick</title>
 
-  <style>
-    html,
-    body{
-      padding: 0;
-      margin: 0;
-      height: 100%;
-      width: 100%;
-    }
-  </style>
+
 
    <!-- Load Map Components from CDN-->
    <link rel="stylesheet" href="https://js.arcgis.com/4.30/esri/themes/light/main.css">
+   <link rel="stylesheet" href="index.css">
    <script src="https://js.arcgis.com/4.30/"></script>
-   <script type="module" src="https://js.arcgis.com/map-components/4.30/arcgis-map-components.esm.js"></script>
+   <script src="main.js" type="module"></script>
 </head>
 
 <body>
-    <arcgis-map item-id="05e015c5f0314db9a487a9b46cb37eca">
-        <!-- Use this key for it to actually work-->
-        <!-- 05e015c5f0314db9a487a9b46cb37eca-->
-        <!-- Below is a link to the map I want to use-->
-        <!--https://admin-enterprise-gis.ucsd.edu/portal/apps/mapviewer/index.html?webmap=75ac499e145a442d93403aed8704ac9b-->
-        <!-- The map id being below but not working when switched out-->
-        <!--75ac499e145a442d93403aed8704ac9b-->
-        <!-- arcgis-legend position="bottom-right"></arcgis-legend -->
-    </arcgis-map>
+  <div id="viewDiv"></div>
 </body>
+
+
+<!-- <body>
+  <arcgis-map item-id="ffc03e7e978740c6b49f126be28ada80">
+    <!-- Use this key for it to actually work-->
+    <!-- ffc03e7e978740c6b49f126be28ada80-->
+    <!-- Below is a link to the map I want to use-->
+    <!--https://admin-enterprise-gis.ucsd.edu/portal/apps/mapviewer/index.html?webmap=75ac499e145a442d93403aed8704ac9b-->
+    <!-- The map id being below but not working when switched out-->
+    <!--75ac499e145a442d93403aed8704ac9b-->
+    <!-- arcgis-legend position="bottom-right"></arcgis-legend -->
+  <!-- arcgis-map>
+</body> -->
 
 </html>
